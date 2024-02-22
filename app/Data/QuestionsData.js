@@ -1,6 +1,264 @@
 export const questionsData = [
   {
     subject: "cloudIot",
+    question: "Selecione a opção correta que apresenta como é chamado um programa escrito com o IDE para Arduino.",
+    options: [
+      "Programa Arduino",
+      "Fonte IDE",
+      "Criptografia",
+      "Código-fonte",
+      "Sketch"
+    ],
+    correctAnswer: "Sketch"
+  },
+  {
+    subject: "cloudIot",
+    question: "Sensores em rede e dispositivos inteligentes em ativos e equipamentos em uma fábrica, que capturam uma quantidade imensa de dados, são chamados de:",
+    options: [
+      "Data Sensor",
+      "Smart Sensor",
+      "IoT",
+      "IIoT",
+      "Big Data"
+    ],
+    correctAnswer: "IIoT"
+  },
+  {
+    subject: "cloudIot",
+    question: "A Xively é uma plataforma comercial muito utilizada para aplicações de IoT, pois ela possui diversas características que a tornam uma opção muito interessante em relação à outras plataformas de IoT. A respeito da plataforma Xively, selecione a opção que NÃO corresponde a uma das características dela:",
+    options: [
+      "Tem suporte do Google.",
+      "Suas aplicações podem ser integradas na nuvem usando APIs RESTful.",
+      "Tem um tratamento específico para gerenciar o fluxo de dados relacionados aos sensores.",
+      "A adaptação dinâmica, ou seja, pode redimensionar a utilização dos recursos da plataforma a fim de manter a disponibilidade dos serviços."
+    ],
+    correctAnswer: "Tem suporte do Google."
+  },
+  {
+    subject: "cloudIot",
+    question: "Qual o comando utilizado para escrever um valor num pino digital configurado como INPUT na plataforma Arduino?",
+    options: [
+      "digitalRead",
+      "Serial.begin",
+      "digitalWrite",
+      "HIGH | LOW"
+    ],
+    correctAnswer: "digitalWrite"
+  },
+  {
+    subject: "cloudIot",
+    question: "Assinale a alternativa incorreta sobre a plataforma da Microsoft para IoT.",
+    options: [
+      "A autenticação e a autorização são feitos pelo módulo active directory.",
+      "O módulo IoT Hub suporta os protocolos de comunicação MQTT, HTTP/HTTPS e AMQP.",
+      "Não há limites para o número de dispositivos que pode gerenciar.",
+      "É a plataforma líder de mercado e possui a maior variedade de oferta de serviços.",
+      "O módulo DocumentDB armazena os metadados, enquanto o módulo LogicApp faz a integração com sistemas de backend."
+    ],
+    correctAnswer: "Não há limites para o número de dispositivos que pode gerenciar."
+  },
+  {
+    subject: "cloudIot",
+    question: "O XMPP é um protocolo aberto e bastante utilizado em aplicações de IoT. Como todos os protocolos utilizados para este tipo de projeto, ele possui pontos fortes e fracos. A respeito dos pontos fortes do XMPP, assinale a opção que não corresponde a uma vantagem do XMPP.",
+    options: [
+      "Permite a comunicação bidirecional entre os dispositivos e o servidor.",
+      "Reduz o consumo de energia e a largura de banda dos dispositivos.",
+      "Garante a entrega das mensagens mesmo em casos de falhas de rede.",
+      "Suporta diversos tipos de dados, como texto, imagem, áudio e vídeo.",
+      "Oferece um alto nível de segurança e criptografia das mensagens."
+    ],
+    correctAnswer: "Reduz o consumo de energia e a largura de banda dos dispositivos."
+  },
+  {
+    subject: "cloudIot",
+    question: "Assinale a opção incorreta sobre a plataforma AWS.",
+    options: [
+      "Implementa um marketplace que permite que o usuário receba o produto ou serviço comprado diretamente do fornecedor, em vez de via AWS.",
+      "Implementa um marketplace em que usuários podem adquirir serviços fornecidos por terceiros.",
+      "Possui o módulo chamado de IAM (Identify and Access Management), que é responsável pelas regras de segurança, autorização e identificação de acesso.",
+      "Disponibiliza o serviço AWS Lambda, que permite ao cliente carregar funções na nuvem e executá-las de forma transparente.",
+      "Possui as seguintes categorias de serviço: Análise, Computação, Bancos de Dados, Blockchain, Rôbotica e Satélite."
+    ],
+    correctAnswer: "Implementa um marketplace que permite que o usuário receba o produto ou serviço comprado diretamente do fornecedor, em vez de via AWS."
+  },
+  {
+    subject: "cloudIot",
+    question: "Um dos objetivos das etapas de pré-processamento dos dados a serem analisados é",
+    options: [
+      "descartar alguns dados que se sabe não vai dar tempo para analisar.",
+      "reenviar os dados para fonte emissora.",
+      "executar a redução de dimensões para evitar overfitting."
+    ],
+    correctAnswer: "executar a redução de dimensões para evitar overfitting."
+  },
+  {
+    subject: "cloudIot",
+    question: "A inteligência artificial é ________ \n\nI. A personificação das capacidades intelectuais humanas em um computador. \n\nII. Um conjunto de programas de computador que produzem resultados que seriam considerados para refletir inteligência. \n\nIII. O estudo das faculdades mentais por meio do uso de modelos mentais implementados em um computador. \n\nQuais das afirmações estão corretas?",
+    options: [
+      "Somente a III",
+      "I, II e III",
+      "I e II",
+      "Somenta a I"
+    ],
+    correctAnswer: "I, II e III"
+  },
+  {
+    subject: "cloudIot",
+    question: "Assinale a alternativa incorreta sobre a arquitetura de IoT.",
+    options: [
+      "A comunicação entre os dispositivos em uma rede de IoT é feita por meio de uma arquitetura distribuída.",
+      "Não há limites para o número de dispositivos participantes de uma rede de IoT, podendo o número deles chegar a milhares ou até mais.",
+      "Anel (ring), barramento (bus) e árvore (tree) são topologias possíveis de se implementar em uma rede formada por dispositivos de IoT.",
+      "Um servidor posicionado geograficamente próximo dos dispositivos para prover menor latência implementa a tecnologia chamada de edge computing.",
+      "A arquitetura de IoT é conhecida por ser monolítica e ter apenas dois componentes: a rede e a plataforma de IoT."
+    ],
+    correctAnswer: "A arquitetura de IoT é conhecida por ser monolítica e ter apenas dois componentes: a rede e a plataforma de IoT."
+  },
+  {
+    subject: "cloudIot",
+    question: "O XMPP é um protocolo aberto que é bastante utilizado em aplicações de IoT. Como todos os protocolos utilizados para este tipo de projeto, ele possui pontos fortes e fracos. A respeito dos pontos fortes do XMPP, assinale a opção que não corresponde a uma vantagem do XMPP.",
+    options: [
+      "Permite a comunicação bidirecional entre os dispositivos e o servidor.",
+      "Reduz o consumo de energia e a largura de banda dos dispositivos.",
+      "Garante a entrega das mensagens mesmo em casos de falhas de rede.",
+      "Suporta diversos tipos de dados, como texto, imagem, áudio e vídeo.",
+      "Oferece um alto nível de segurança e criptografia das mensagens."
+    ],
+    correctAnswer: "Reduz o consumo de energia e a largura de banda dos dispositivos."
+  },
+  {
+    subject: "cloudIot",
+    question: "Leia atentamente as sentenças a seguir: I - Uso de data centers e recursos virtuais, sejam próprios ou terceirizados como infra de TI. II - Carros e drones autônomos são exemplos de aplicações resultantes dessa revolução. III - Precisa lidar, às vezes, em tempo real com uma grande quantidade de dados produzidas por máquinas, veículos ou dispositivos IoT. As descrições referem-se a qual item a seguir?",
+    options: [
+      "Primeira Revolução industrial",
+      "Terceira Revolução industrial",
+      "Quarta Revolução industrial",
+      "Segunda Revolução industrial",
+      "Transformação Digital"
+    ],
+    correctAnswer: "Quarta Revolução industrial"
+  },
+  {
+    subject: "cloudIot",
+    question: "Assinale a alternativa incorreta sobre a arquitetura de IoT.",
+    options: [
+      "A comunicação entre os dispositivos em uma rede de IoT é feita por meio de uma arquitetura distribuída.",
+      "Não há limites para o número de dispositivos participantes de uma rede de IoT, podendo o número deles chegar a milhares ou até mais.",
+      "Anel (ring), barramento (bus) e árvore (tree) são topologias possíveis de se implementar em uma rede formada por dispositivos de IoT.",
+      "Um servidor posicionado geograficamente próximo dos dispositivos para prover menor latência implementa a tecnologia chamada de edge computing.",
+      "A arquitetura do IoT é conhecida por ser monolítica e ter apenas dois componentes: a rede e a plataforma do IoT."
+    ],
+    correctAnswer: "A arquitetura do IoT é conhecida por ser monolítica e ter apenas dois componentes: a rede e a plataforma do IoT."
+  },
+  {
+    subject: "cloudIot",
+    question: "O Protocolo AMQP (Advanced Message Queuing Protocol) atua na camada de aplicação. Além disso, ele é aberto e segue o paradigma publicar-assinar. A respeito do AMQP, selecione a opção correta.",
+    options: [
+      "Os componentes troca e filas de mensagens fazem parte da arquitetura do protocolo.",
+      "A implementação de soluções é equivalente à do HTTP.",
+      "Em relação ao nível de QoS “Exatamente uma vez” significa que o publicador vai enviar a mensagem apenas uma vez.",
+      "Um dos pontos fortes do AMQP é a controle com a qualidade de serviço que garante cinco níveis de entrega.",
+      "Possui compatibilidade com suas versões mais antigas."
+    ],
+    correctAnswer: "Os componentes troca e filas de mensagens fazem parte da arquitetura do protocolo."
+  },
+  {
+    subject: "cloudIot",
+    question: "Seu supervisor deseja entender a vida dos equipamentos da fábrica usando ferramentas e técnicas para identificar padrões anormais de operação destes. Qual o nome da atividade que ele está pretendendo usar?",
+    options: [
+      "Manutenção corretiva",
+      "Manutenção antecipada",
+      "Manutenção preventiva",
+      "Manutenção verificada",
+      "Manutenção preditiva"
+    ],
+    correctAnswer: "Manutenção preditiva"
+  },
+  {
+    subject: "cloudIot",
+    question: "Virtualização é uma tecnologia que permite criar serviços de TI valiosos usando recursos que estão tradicionalmente vinculados a um determinado hardware. Com a virtualização, é possível usar a capacidade total de uma máquina física, distribuindo seus recursos entre muitos usuários ou ambientes. Acerca da virtualização, assinale a opção que completa corretamente a lacuna da sentença abaixo. A virtualização tem sido usada extensivamente em sistemas corporativos. Uma de suas características é o fato de que a virtualização ________ .",
+    options: [
+      "diminui o número de recursos físicos necessários.",
+      "só pode funcionar em um nível de rede.",
+      "fornece uma maneira de reunir redes, aplicativos e processos.",
+      "não influi no número de recursos físicos necessários.",
+      "só pode funcionar em um nível de servidor."
+    ],
+    correctAnswer: "diminui o número de recursos físicos necessários."
+  },
+  {
+    subject: "cloudIot",
+    question: "O Protocolo AMQP (Advanced Message Queuing Protocol) atua na camada de aplicação. Além disso, ele é aberto e segue o paradigma publicar-assinar. A respeito do AMQP, selecione a opção correta.",
+    options: [
+      "Os componentes troca e filas de mensagens fazem parte da arquitetura do protocolo.",
+      "A implementação de soluções é equivalente à do HTTP.",
+      "Em relação ao nível de QoS “Exatamente uma vez” significa que o publicador vai enviar a mensagem apenas uma vez.",
+      "Um dos pontos fortes do AMQP é a controle com a qualidade de serviço que garante cinco níveis de entrega.",
+      "Possui compatibilidade com suas versões mais antigas."
+    ],
+    correctAnswer: "Os componentes troca e filas de mensagens fazem parte da arquitetura do protocolo."
+  },
+  {
+    subject: "cloudIot",
+    question: "(Informativa básica - microinformática - internet das coisas - Fundação Getúlio Vargas - 2015 - DPE-MT - assistente administrativo) As opções a seguir exemplificam aplicações da tecnologia conhecida como “internet das coisas”, à exceção de uma. Assinale-a:",
+    options: [
+      "Smart TV",
+      "Óculos conectados",
+      "Refrigerador High Tech",
+      "Tênis inteligente",
+      "CD player portátil"
+    ],
+    correctAnswer: "CD player portátil"
+  },
+  {
+    subject: "cloudIot",
+    question: "O momento tecnológico atual é marcado pela Indústria 4.0 e por um grande avanço e popularização de seus pilares estruturais. Dentro desse contexto, temos a Internet das Coisas. Contudo, estima-se que os dispositivos de IoT podem apresentar impactos negativos. Qual seria um desses possíveis impactos?",
+    options: [
+      "Aumento da poluição do ar por causa do silício liberado na atmosfera.",
+      "Incidência de doenças relacionadas às ondas magnéticas emitidas pelos dispositivos de IoT.",
+      "Aumento na frequência em grandes lavras devido aos sons mecânicos emitidos pelos dispositivos controladores.",
+      "Distúrbios na sensibilidade humana por não se sentir parte do processo do IoT.",
+      "A forma como a internet vai evoluir devido à banda consumida e à gigantesca quantidade de dados gerados."
+    ],
+    correctAnswer: "A forma como a internet vai evoluir devido à banda consumida e à gigantesca quantidade de dados gerados."
+  },
+  {
+    subject: 'cloudIot',
+    question: 'A plataforma OpenIoT é uma das mais conhecidas para o desenvolvimento de aplicações IoT. Um dos principais componentes da sua arquitetura é o Rede Global de Sensores (GSN). Nesse sentido, selecione a opção CORRETA sobre a GSN.',
+    options: [
+      "Apesar de aumentar o custo de desenvolvimento, reduz o tempo de comunicação entre os dispositivos.",
+      "Reduz custos de implantação, apesar de aumentar o tempo de desenvolvimento.",
+      "Aumenta a confiabilidade do projeto, apesar de aumentar o tempo de desenvolvimento.",
+      "Reduz o custo e tempo de desenvolvimento."
+    ],
+    correctAnswer: 'Reduz o custo e tempo de desenvolvimento.'
+  },
+  {
+    subject: "cloudIot",
+    question: "Em relação a como é feito o fornecimento de energia do Raspberry Pi, selecione a opção correta.",
+    options: [
+      "Bateria externa",
+      "Adaptador",
+      "Bateria interna",
+      "Conexão USB",
+      "Carregador"
+    ],
+    correctAnswer: "Conexão USB"
+  },
+  {
+    subject: "cloudIot",
+    question: "O Protocolo AMQP (Advanced Message Queuing Protocol) atua na camada de aplicação. Além disso, ele é aberto e segue o paradigma publicar-assinar. A respeito do AMQP, selecione a opção correta.",
+    options: [
+      "Os componentes troca e filas de mensagens fazem parte da arquitetura do protocolo.",
+      "A implementação de soluções é equivalente à do HTTP.",
+      "Em relação ao nível de QoS “Exatamente uma vez” significa que o publicador vai enviar a mensagem apenas uma vez.",
+      "Um dos pontos fortes do AMQP é a controle com a qualidade de serviço que garante cinco níveis de entrega.",
+      "Possui compatibilidade com suas versões mais antigas."
+    ],
+    correctAnswer: "Os componentes troca e filas de mensagens fazem parte da arquitetura do protocolo."
+  },
+  {
+    subject: "cloudIot",
     question: "Sobre as vantagens e desvantagens de se estabelecer um padrão e melhores práticas para IoT, aponte as opções verdadeiras.\n\nI. O esforço de desenvolver soluções completas fim a fim reduz o número de competidores no mercado.\n\nII. É interesse de governos, agências reguladoras e até mesmo dos fabricantes que padrões sejam definidos.\n\nIII. Padronizar IoT retarda a evolução e a adoção de novas tecnologias.\n\nIV. Alguns fabricantes de IoT implementam estratégias de mercado que intencionalmente travam o consumidor nos seus ambientes.\n\nV. O crescimento vertiginoso da tecnologia IoT levou os fabricantes a uma disputa acirrada que provocou o aparecimento de diversas soluções proprietárias.\n\nA sequência correta é:",
     options: [
       "V, V, V, V, V.",
@@ -1162,15 +1420,15 @@ export const questionsData = [
   },
   {
     "subject": "bigDataPython",
-    "question": "Observe o trecho de código abaixo\n\nimport numpy as np\nfrom pyspark import SparkContext\nspark_contexto = SparkContext()\na = np.array([1, 5, 1, 6, 4, 7, 7])\nteste = spark_contexto.parallelize(a)\nSelecione a opção correta a respeito dele.",
+    "question": "Observe o trecho de código abaixo\n\nimport numpy as np\nfrom pyspark import SparkContext\nspark_contexto = SparkContext()\na = np.array([1, 5, 1, 6, 4, 7, 7])\ncloudIot = spark_contexto.parallelize(a)\nSelecione a opção correta a respeito dele.",
     "options": [
       "O objetivo do trecho de código é contar a quantidade de ocorrências dos valores do vetor 'a'.",
       "A linha 'spark_contexto.parallelize(a)' aplica a técnica MapReduce para processar o vetor 'a'.",
-      "A variável 'teste' corresponde a um RDD.",
+      "A variável 'cloudIot' corresponde a um RDD.",
       "A execução do trecho de código vai gerar um erro.",
       "A utilização do SparkContext é opcional.",
       "Certo"
     ],
-    "correctAnswer": "A variável 'teste' corresponde a um RDD."
+    "correctAnswer": "A variável 'cloudIot' corresponde a um RDD."
   }
 ];
