@@ -121,18 +121,6 @@ export const questionsData = [
   },
   {
     subject: "cloudIot",
-    question: "Marque a opção que não representa uma plataforma de IoT:",
-    options: [
-      "Arduino Cloud IoT",
-      "Salesforce IoT Cloud",
-      "Cisca IoT Cloud connect",
-      "Arduino NANO 33 IoT",
-      "IBM Watson IoT platform"
-    ],
-    correctAnswer: "Arduino NANO 33 IoT"
-  },
-  {
-    subject: "cloudIot",
     question: "Arduino e Raspberry Pi são exemplos de:",
     options: [
       "Processadores modernos empregados exclusivamente em placas para IoT.",
@@ -421,11 +409,13 @@ export const questionsData = [
   },
   {
     "subject": "direitoCibernetico",
-    "question": "A responsabilidade civil de influenciadores digitais é uma questão que vem levantando bastante debate atualmente. Nesse sentido, há quem defenda a responsabilidade de natureza objetiva em caso de produção de danos causados por produtos veiculados por influenciadores. Segundo essa corrente, a justificativa para tanto guarda relação com o fato:",
+    "question": "A responsabilidade civil de influenciadores digitais é uma questão que vem levantando bastante debate atualmente.Nesse sentido, há quem defenda a responsabilidade de natureza objetiva em caso de produção de danos causados por produtos veiculados por influenciadores.Segundo essa corrente, a justificativa para tanto guarda relação com o fato: \n\nI. de os influenciadores receberem vantagem econômica.\n\nII. de os influenciadores se relacionarem de forma direta com seus seguidores, que são consumidores.\n\nIII. de os influenciadores integrarem a cadeira de consumo, respondendo, assim, de forma subsidiária pelos danos eventualmente casados.\n\nEstão corretos os itens:",
     "options": [
-      "de os influenciadores receberem vantagem econômica.",
-      "de os influenciadores se relacionarem de forma direta com seus seguidores, que são consumidores.",
-      "de os influenciadores integrarem a cadeira de consumo, respondendo, assim, de forma subsidiária pelos danos eventualmente casados."
+      "I e III, somente.",
+      "I e II, somente.",
+      "I II, e III.",
+      "I, somente.",
+      "II e III, somente.",
     ],
     "correctAnswer": "I e II, somente."
   },
@@ -482,6 +472,7 @@ export const questionsData = [
     "question": "Sobre o ideal de democracia não é possível dizer:",
     "options": [
       "A democracia substantiva propõe a introdução de valores morais à leitura de uma Constituição e, portanto, à ideia de democracia, a fim de permitir que tais valores não sejam ignorados em tal regime, não tendo como foco imediato a premissa majoritária.",
+      "as fake news não visam influenciar a democracia, posto que não possuem qualquer relação com a deliberação e com a participação na vida democrática.",
       "A democracia procedimental tem foco na desobstrução dos canais de mudança política e na correção de discriminações às minorias, não pretendendo imediatamente fornecer um bem determinado de valor substantivo, mas assegurar um adequado processo político.",
       "A democracia deliberativa tem como um dos pontos centrais a deliberação dos assuntos políticos que dão condução à vida em sociedade, significando que se os debates são conduzidos no Parlamento, locus em que a democracia deliberativa se circunscreve.",
       "A democracia participativa propõe a participação como ponto vital da democracia, determinando uma ampliação dos limites deliberativos, para que ingressem no debate outras pessoas que não somente os representantes eleitos."
